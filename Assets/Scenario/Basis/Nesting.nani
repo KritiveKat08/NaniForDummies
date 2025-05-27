@@ -1,0 +1,23 @@
+Nesting verwijst naar het inspringen van commands of tekst om aan te geven dat ze binnen een bepaald context vallen. Je kunt dit vergelijken dat ieder Parent Children bevatten. 
+Nesting kun je activeren door SHIFT+ENTER te drukken om een nesting te creëren. Je kunt dit duidelijk merken als de "Inspector" bekijkt van deze naniscript (je ziet dan een cirkel of meerdere vóór sommige teksten, wat dient als nesting)
+Je kunt met nesting op verschillende manieren gebruik maken, zoals bijvoorbeeld waardoor je de <color=#FFC000>goto:</color> parameter niet hoeft te gebruiken achter de <color=#4C94D8>@choice</color> command. Laten we een paar testen![< skip!]
+# Terug
+@choice "Geef mij een tekst"
+    Een tekst.
+    @goto .Terug
+    @stop
+@choice "Geef mij een willekeurig nummer"
+    @random
+        1
+        2
+        3
+        4
+        5
+    @goto .Terug
+    @stop
+@choice "Geef mij twee teksten"
+    Hier is een tekst. []
+    [] En hier is de tweede tekst.[< join!]
+    @goto .Terug
+    @stop
+@stop

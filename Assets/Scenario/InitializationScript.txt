@@ -1,0 +1,8 @@
+In de standaard opzet staat Naninovel's TitleUI altijd op "awake" wanneer je playtest. Deze heb ik uitgezet om de "Initialization Script" meteen te laten werken nadat je op playtest drukt.
+
+Als je van naniscripts wilt veranderen om de visueel voorbeeld te bekijken, kun je via:
+Naninovel > Configuration > Scripts > Initialization Script
+of
+Edit > Project Settings > Naninovel > Scripts > Initialization Script
+
+Je kunt uit een reeks van gemaakte naniscripts kiezen uit de map "Basis" of "Avanceerd." De "Scenario Root" staat (en ik hoop) op Assets/Scenario om de naniscripts uit beide mappen te laten uitvoeren zonder problemen.

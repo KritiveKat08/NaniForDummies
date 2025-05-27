@@ -1,0 +1,15 @@
+Dit is helaas niet beschikbaar in playtest mode. Bekijk via Unity's "Inspector" of open deze script in Visual Code Studio om de context te achterhalen.
+@stop
+
+
+Een label is een soort gemarkeerd punt in een script waarmee je gemakkelijk naar een specifiek locatie in je verhaal kunt naartoe springen.
+
+Je kunt hierbij gebruikmaken van de @goto command om naar een label binnen hetzelfde script naartoe te springen. Om de label te laten werken in je @goto command moet je ".Labelname" gebruiken! (de punt voren in belangrijk)
+
+# Label1
+Welkom bij Label1!
+@stop
+
+# Label2
+Welkom bij Label2!
+@stop
