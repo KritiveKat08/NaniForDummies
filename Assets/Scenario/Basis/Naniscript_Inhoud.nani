@@ -1,0 +1,3 @@
+Als je deze naniscript laat playtesten, zie je deze lijn voorbij schijnen. In de "Inspector" van Unity, zie je dat naniscripts altijd op lijn 1 beginnen.
+Dialogen stoppen met generen als <color=#4C94D8>@stop</color> erna staat en blijft op de laatste lijn met tekst hangen, net als deze dialoog als deze vervolgd.
+@stop

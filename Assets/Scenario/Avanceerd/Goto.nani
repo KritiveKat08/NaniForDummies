@@ -1,0 +1,5 @@
+De <color=#4C94D8>@goto</color> command kan zich op twee manieren gebruikt worden. Je zou al merken dat één van de manieren om deze command te gebruiken is om naar een label binnen dezelfde script naar toe te springen. Zou je dit niet gemerkt hebben, kun je altijd de naniscript "Choice" lezen!
+Een ander manier om <color=#4C94D8>@goto</color> command te gebruiken is de mogelijkeheid om ook naar een ander naniscript toe te springen. Laten we het proberen![< skip!]
+@choice "Op naar de volgende naniscript!" goto:Avanceerd/GotoContinue
+@choice "Op naar de volgende naniscript en begin vanaf een label!" goto:Avanceerd/GotoContinue.Hidden
+@stop

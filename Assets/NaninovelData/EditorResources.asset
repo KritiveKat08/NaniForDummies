@@ -144,3 +144,58 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: Basis/Achtergronden
+      pathPrefix: Scripts
+      guid: 41baa53797aff424397e05273ecd93c7
+    - name: Basis/Karakters
+      pathPrefix: Scripts
+      guid: ee55e1fc88248124dbd0c0cb39ed119d
+    - name: Basis/Labels
+      pathPrefix: Scripts
+      guid: 47a335dca44ecb34ea65e3a94279f08d
+    - name: Basis/Naniscript_Inhoud
+      pathPrefix: Scripts
+      guid: 8ff8f7a9d6512254c80f75351f631153
+    - name: Basis/Nesting
+      pathPrefix: Scripts
+      guid: e59e1c42d67b828498f6a21cf3e28dd6
+    - name: Avanceerd/GenericParameter
+      pathPrefix: Scripts
+      guid: 171192fc464f0244789b0fabc68ceb4b
+    - name: Avanceerd/If
+      pathPrefix: Scripts
+      guid: 210d863c3963a7a4a833f0427128292b
+    - name: Avanceerd/Random
+      pathPrefix: Scripts
+      guid: 93e39625d1279ce49863ea7575a83ed5
+    - name: Basis/Printer
+      pathPrefix: Scripts
+      guid: 48e3e36cb6392e34abfadf77a1a4a8d6
+    - name: Avanceerd/Set
+      pathPrefix: Scripts
+      guid: a078cc9c05da86e4d856db20ec253651
+    - name: Basis/Choice
+      pathPrefix: Scripts
+      guid: b51d346a436786148b4490ac2b415266
+    - name: Avanceerd/Goto
+      pathPrefix: Scripts
+      guid: 0cdb9e4aff1e7094e9a5a25ceb5fe596
+    - name: Avanceerd/GotoContinue
+      pathPrefix: Scripts
+      guid: 6043addaa70bd624a84da9586502107d
+  - Id: Backgrounds/23d0272b-717a-4ee8-9aae-6bb2f94f0b9c
+    Resources:
+    - name: Collegezaal
+      pathPrefix: Backgrounds/MainBackground
+      guid: df43b9bfbd00eda479cf23d3ac50b62c
+    - name: Bos
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8e14a2397267d8247a0b3e9fa5f40b5b
+    - name: Straat
+      pathPrefix: Backgrounds/MainBackground
+      guid: 12e11d760d4cb5c40a3e988bc29e2d5a
+    - name: Bibliotheek
+      pathPrefix: Backgrounds/MainBackground
+      guid: c9c2cb00726ccf44fa3e810365ec8926
