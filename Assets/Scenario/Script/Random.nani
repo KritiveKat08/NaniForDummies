@@ -1,0 +1,37 @@
+In de "Nesting" naniscript had je al een spoiler gezien hoe de <color=#4C94D8>@random</color> command werkte. En het zegt ook voor zichzelf: De <color=#4C94D8>@random</color> command pakt een willekeurig lijn in de nesting en laat die utikomst zien en de overige verbergen.
+
+Laten we dobbelen!
+# Terug
+@choice "Dobbelen"
+    @random
+        @group
+            1
+            Haha, loser![< skip!]
+            @goto .Terug
+            @stop
+        @group
+            2
+            Pfft. Is dat alles?[< skip!]
+            @goto .Terug
+            @stop
+        @group
+            3
+            Je komt er wel.[< skip!]
+            @goto .Terug
+            @stop
+        @group
+            4
+            Netjes.[< skip!]
+            @goto .Terug
+            @stop
+        @group
+            5
+            Ok, ok. Not bad.[< skip!]
+            @goto .Terug
+            @stop
+        @group
+            6
+            Wow! Jij hebt wat geluk zeg![< skip!]
+            @goto .Terug
+            @stop
+@stop

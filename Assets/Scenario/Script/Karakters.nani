@@ -1,0 +1,17 @@
+Karakters kunnen weergeven worden achter deze dialoog door <color=#4C94D8>@char</color> te gebruiken. Deze kunnen vanaf het begin van een naniscript weergeven worden of later in het verhaal.
+Alle karakters die je in het verhaal wilt stoppen kunnen gevonden en bijgewerkt worden via Naninovel > Resources > Characters. Laten we een paar proberen!
+@char Woman pos:90,-50
+Woman: Hei, jij! Hoe ben ik hier gekomen?
+@char Dolphin look:right pos:10,-80
+Dolphin: Bedoel je mij? Mij moet je niet vragen. Ik weet het zelf ook niet!
+Woman: En hoe kan jij praten?!
+@hide Dolphin
+@char Horse look:left pos:20,-10
+Horse: Ik ben hier ook in een keer gekomen.
+Horse.Stare: ...
+Horse.Stare: Maar misschien weet jij het?
+.[wait .5].[wait .5].[wait .5]
+Uh. Ik ben een beetje bang voor dat paard. Met de <color=#4C94D8>@hideChars</color> command kun je alle karakters die zich in de scene nu bevindt verdwijnen.
+@hideChars
+Zo! Weg met dat paard!
+@stop

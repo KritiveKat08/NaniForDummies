@@ -1,4 +1,4 @@
-Achtergronden kunnen weergeven worden achter deze dialoog door <color=#4C94D8>@back</color> te gebruiken. Deze kunnen vanaf het begin van een naniscript weergeven worden, of later in het verhaal.
+Achtergronden kunnen weergeven worden achter deze dialoog door <color=#4C94D8>@back</color> te gebruiken. Deze kunnen vanaf het begin van een naniscript weergeven worden of later in het verhaal.
 Alle achtergronden die je in het verhaal wilt stoppen kunnen gevonden worden via Naninovel > Resources > Backgrounds
 @back Bos
 Doordat ik <color=#4C94D8>@back</color> <color=#FFC000>Bos</color> gebruik vóór deze dialoog, voegt Naninovel het achtergrond met de Name "Bos" uit de "MainBackground" toe in deze naniscript.
@@ -8,7 +8,7 @@ Je kunt ook gemakkelijk van achtergronden veranderen door de <color=#FFC000>Name
 Hier is er nog eentje.
 @back Bibliotheek
 En de laatste, vertrouw me!
-Als de "Mainbackground" uit het verhaal wilt verwijderen, kun je gebruikmaken door <color=#4C94D8>@hide</color> <color=#FFC000>MainBackground</color> erna in te voeren.
+Als de "Mainbackground" uit het verhaal wilt verwijderen, kun je gebruikmaken door <color=#4C94D8>@hide</color> <color=#FFC000>MainBackground</color> daarnana in te voeren.
 @hide MainBackground
 En nu is de laatste achtergrond weg!
 @stop

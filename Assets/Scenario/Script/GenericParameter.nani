@@ -1,0 +1,8 @@
+Zoals je merkte in sommige naniscripts gebruik ik vaak een "< skip!" parameter achter teksten om ze automatisch naar de volgende lijn te vervolgen. Anders dan deze "Generic Parameter" zijn er nog meer die je tijdens het schrijven van dialogen in naniscripts kunt toevoegen!
+
+Graag zou ik je willen vragen om deze naniscript te bekijken via "Inspector" of Visual Studio Code, om te weten wat er allemaal zal gaan gebeuren.
+
+Natuurlijk is er de "< skip!" parameter, waar de speler handmatig niet op de scherm hoeft te drukken om naar de volgende dialoog te vervolgen.[wait 1][< skip!]
+Ook is er een "wait" parameter, wat hetzelfde bevat als een @wait command: De speler moet XX aantal gaan wachten totdat ze mogen vervolgen naar de volgende dialoog. de "i" vóór de nummer krijgen de speler de vrijheid om toch niet voor de "wait" parameter te wachten. [wait i1]
+"i" parameters kunnen ook tussen zinnen gevonden worden.[i] Zoals deze!
+@stop

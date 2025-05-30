@@ -1,0 +1,53 @@
+De <color=#4C94D8>@if</color> command wordt gebruikt om vertakkingen in het verhaal te maken op basis van voorwaarden. Het bepaalt welk deel wordt uitgevoerd, afhankelijk van de waarde van een variable.
+
+Laten we jou een test geven. Je kunt een totaal score halen van 3.
+@set Score=0
+
+Vraag 1: Wat is de pronvincie van Nederland?
+@choice "Amsterdam"
+    @set Score=Score+1
+    @goto .Vraag2
+@choice "Holland"
+    @set Score=Score+0
+    @goto .Vraag2
+@choice "Groningen"
+    @set Score=Score+0
+    @goto .Vraag2
+@stop
+
+# Vraag2
+Vraag 2: Wat is 1+1?
+@choice "11"
+    @set Score=Score+0
+    @goto .Vraag3
+@choice "1"
+    @set Score=Score+0
+    @goto .Vraag3
+@choice "2"
+    @set Score=Score+1
+    @goto .Vraag3
+@stop
+
+# Vraag3
+Laatste vraag:[i] Ja of nee?
+@choice "Ja"
+    @set Score=Score+0
+    @goto .Result
+@choice "Nee"
+    @set Score=Score+1
+    @goto .Result
+@stop
+
+# Result
+Bedankt voor het nemen van deze test. Laten we kijken wat voor score jij hebt behaald...
+
+...
+
+@if Score=2
+    Netjes gedaan. Vraag 3 was een strikvraag.
+    @if Score=3
+        Wow! Een perfect! Je ben niet naar deze naniscript wezen kijken via de "Inspector" of VS Code om deze dialoog te zien. Of wel?
+    @else
+        Jij hebt niet echt goed gedaan zeg...
+; @else commands helpt de @if commands als de voorwaarde van de @if command niet waar is
+@stop

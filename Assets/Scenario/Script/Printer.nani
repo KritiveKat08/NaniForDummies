@@ -1,0 +1,16 @@
+In naniscripts is het mogelijk om van dialoog-typen te veranderen. De dialoog die je nu ziet als je deze tekst leest is de standaard dialoog "Dialogue." De typen dialogen kun je terugvinden via Naninovel > Resources > Text Printers
+Dialoog-typen kunnen veranderd worden door <color=#4C94D8>@printer</color> command te gebruiken.
+@printer Wide
+Zoals dit! (Als het via "Inspector" bekijkt)
+Wanneer je de command gebruikt, wordt de betreffende Text Printer de standaard dialoog-typen van deze naniscript totdat je van naniscript veranderd of nog een <color=#4C94D8>@printer</color> daarna toevoegd.
+@printer Fullscreen
+En hier is er nog een!
+@printer Dialogue
+En nu zijn we terug op de standaard-standaard dialoogtypen.
+Daarnaast kun je ook de <color=#4C94D8>@resetText</color> command gebruiken om de tekst die je nu ziet te verwijderen. Of <color=#4C94D8>@hidePrinter</color> om de dialoog te verstoppen.
+<color=#4C94D8>@hidePrinter</color> command kun je een tijd geven hoe lang de transitie over doet om het volledig te verstoppen. Dit kun je doen door <color=#BF4E14>time:</color><color=#FFC000>Nummer</color> achter het command te plaatsen. 0 is vliegensvlug! Maar 10 is super sloom!
+
+@hidePrinter time:1
+@wait 1.5
+Peek-a-boo![< skip!]
+@stop
