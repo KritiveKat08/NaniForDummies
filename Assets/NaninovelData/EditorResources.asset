@@ -146,45 +146,51 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: Basis/Achtergronden
+    - name: Achtergronden
       pathPrefix: Scripts
       guid: 41baa53797aff424397e05273ecd93c7
-    - name: Basis/Karakters
-      pathPrefix: Scripts
-      guid: ee55e1fc88248124dbd0c0cb39ed119d
-    - name: Basis/Labels
-      pathPrefix: Scripts
-      guid: 47a335dca44ecb34ea65e3a94279f08d
-    - name: Basis/Naniscript_Inhoud
-      pathPrefix: Scripts
-      guid: 8ff8f7a9d6512254c80f75351f631153
-    - name: Basis/Nesting
-      pathPrefix: Scripts
-      guid: e59e1c42d67b828498f6a21cf3e28dd6
-    - name: Avanceerd/GenericParameter
-      pathPrefix: Scripts
-      guid: 171192fc464f0244789b0fabc68ceb4b
-    - name: Avanceerd/If
-      pathPrefix: Scripts
-      guid: 210d863c3963a7a4a833f0427128292b
-    - name: Avanceerd/Random
-      pathPrefix: Scripts
-      guid: 93e39625d1279ce49863ea7575a83ed5
-    - name: Basis/Printer
-      pathPrefix: Scripts
-      guid: 48e3e36cb6392e34abfadf77a1a4a8d6
-    - name: Avanceerd/Set
-      pathPrefix: Scripts
-      guid: a078cc9c05da86e4d856db20ec253651
-    - name: Basis/Choice
+    - name: Choice
       pathPrefix: Scripts
       guid: b51d346a436786148b4490ac2b415266
-    - name: Avanceerd/Goto
+    - name: GenericParameter
+      pathPrefix: Scripts
+      guid: 171192fc464f0244789b0fabc68ceb4b
+    - name: If
+      pathPrefix: Scripts
+      guid: 210d863c3963a7a4a833f0427128292b
+    - name: Karakters
+      pathPrefix: Scripts
+      guid: ee55e1fc88248124dbd0c0cb39ed119d
+    - name: Labels
+      pathPrefix: Scripts
+      guid: 47a335dca44ecb34ea65e3a94279f08d
+    - name: Naniscript_Inhoud
+      pathPrefix: Scripts
+      guid: 8ff8f7a9d6512254c80f75351f631153
+    - name: Nesting
+      pathPrefix: Scripts
+      guid: e59e1c42d67b828498f6a21cf3e28dd6
+    - name: Printer
+      pathPrefix: Scripts
+      guid: 48e3e36cb6392e34abfadf77a1a4a8d6
+    - name: Random
+      pathPrefix: Scripts
+      guid: 93e39625d1279ce49863ea7575a83ed5
+    - name: Set
+      pathPrefix: Scripts
+      guid: a078cc9c05da86e4d856db20ec253651
+    - name: SetName
+      pathPrefix: Scripts
+      guid: b99d0a93fa5906c448f65c8dd3f6f25b
+    - name: Goto
       pathPrefix: Scripts
       guid: 0cdb9e4aff1e7094e9a5a25ceb5fe596
-    - name: Avanceerd/GotoContinue
+    - name: GotoContinue
       pathPrefix: Scripts
       guid: 6043addaa70bd624a84da9586502107d
+    - name: HideChoice
+      pathPrefix: Scripts
+      guid: b244cdd247a0b1e45b34b9274195d9dd
   - Id: Backgrounds/23d0272b-717a-4ee8-9aae-6bb2f94f0b9c
     Resources:
     - name: Collegezaal
@@ -199,3 +205,23 @@ MonoBehaviour:
     - name: Bibliotheek
       pathPrefix: Backgrounds/MainBackground
       guid: c9c2cb00726ccf44fa3e810365ec8926
+  - Id: Characters/3d1da7ab-e524-4cdb-8a59-35932e2c8bce
+    Resources: []
+  - Id: Characters/f0bed647-721c-45b4-af80-da6941bfc0e1
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Woman
+      guid: fcc6c1d589be51e48a70e2629e0f1962
+  - Id: Characters/91ce6254-a914-42af-8063-6fe58124269b
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Dolphin
+      guid: 71d6603467dde774baaa38f4da2fccc3
+  - Id: Characters/8b40c1f4-f7b1-44b6-9047-5ba0c7947b23
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Horse
+      guid: 09999f58109bfe04eb0415ca2dfe4901
+    - name: Stare
+      pathPrefix: Characters/Horse
+      guid: 2782617928f87584db9c3188463338b2

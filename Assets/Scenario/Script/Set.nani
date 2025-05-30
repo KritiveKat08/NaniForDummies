@@ -1,0 +1,44 @@
+Met de <color=#4C94D8>@set</color> command is het mogelijk om een variable waar of niet waar te maken, optellen of aftrekken of een vaste nummer toe te voegen.
+Graag zou ik je willen vragen om deze naniscript te bekijken via "Inspector" of Visual Studio Code, om te weten wat er allemaal zal gaan gebeuren.
+
+@set SetName="Dummy"
+; Deze @set command vertelt tegen Naninovel om "SetName" (in de display name van Dummy) te veranderen naar "Dummy." Deze keuze wordt overal verwerkt, tenzij je Naninovel reset
+
+@set Stranger=false
+@set Lantern=false
+@set Floor=false
+; Deze @set command helpt de @choice command om die keuze de verwijderen uit de gameplay als het niet vergelijkt met de "if" parameter
+
+@set Coins=0
+; Deze @set command betekent dat de variable "coins" vast staat op nummer 0. Ook als je deze nansicript herstart, zet deze variable terug op 0.
+Dummy: Laten we wat munten verzamelen!
+# Terug
+@if Coins<3
+    Dummy: Waar zullen we gaan kijken?[< skip!]
+@if Coins=3
+    Dummy: Yes! Ik heb genoeg munten om iets te kopen![< skip!]
+; Als de speler de hoeveelheid Coins heeft verzameld, verandert de dialoog
+@choice "Vraag het aan een vreemdeling" if:Stranger=false
+    @set Coins=Coins+1
+    ; Nummber telt op van de hoeveelheid "Coins" variable nu heeft. Als je hier eerst op klikt, dan is het 0+1=1
+    @set Stranger=true
+    ; Wanneer "Stranger" variable is waar, en de "if" parameter van deze @choice command is niet vergelijkbaar, dan kan de speler deze @choice niet meer zien
+    Dummy: Ik heb een munt gekregen! Yippie!
+    @goto .Terug
+    @stop
+@choice "Kijk ergens op het grond" if:Floor=false
+    @set Coins=Coins+1
+    @set Floor=true
+    Dummy: Oh! Ik heb een munt gevonden!
+    @goto .Terug
+    @stop
+@choice "Bekijk de lantaarnpaal" if:Lantern=false
+    @set Coins=Coins+1
+    @set Lantern=true
+    Dummy: Ik heb een munt gevonden!
+    @goto .Terug
+    @stop
+@choice "Koop een lolliepop!" lock:{Coins<2}
+    Dummy: Lekker! Ik kan eindelijk een lolliepop kopen!
+    @stop
+@stop

@@ -1,0 +1,24 @@
+Dit is een vervolg van de "Choice" naniscript. Ik raad je aan om eerst dat te lezen voordat je deze leest, om een idee te krijgen wat er gaat gebeuren.
+
+Vanuit de <color=#4C94D8>@choice</color> command is het ook mogelijk om keuzes te verbergen en te vertonen na een bepaal wachttijd.
+
+Bij de "Set" naniscript had je al een voorbeeld kunnen zien, waar keuzes verborgen worden als de "if" parameter niet verglijkbaar staat van de variable's uitkomst.
+
+Met deze tutorial hoef je alleen 5 seconden te wachten. Klik nog niet op die keuzes! Die doen helemaals niks, ik zweer![< skip!]
+# Terug
+@choice "Keuze 1" goto:.Waarom
+@choice "Keuze 2" goto:.Waarom
+@choice "Keuze 3" goto:.Waarom
+@wait 5
+@choice "Keuze 4" goto:.Keuze4
+En kijk eens aan! Nog een keuze!
+@stop
+
+# Waarom
+Ik heb letterlijk gezegd om 5 seconden te wachten. Laten we het nog een keer proberen.[< skip!]
+@goto .Terug
+@stop
+
+# Keuze4
+Goedzo! Nou, dat was toch niet zo moeilijk.
+@stop

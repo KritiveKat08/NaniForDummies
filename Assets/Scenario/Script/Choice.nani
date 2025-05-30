@@ -1,6 +1,6 @@
 In naniscripts is het mogelijk om spelers meerdere keuzemogelijkheden aan te bieden, wat het verhaal in verschillende richting kan sturen. De <color=#4C94D8>@choice</color> command kun je gebruiken in je verhaal om vertakkingen te creëren.
 # Terug
-Hier zijn een reeks <color=#4C94D8>@choice</color> waar je uit kunt kiezen! Let er wel op bij het opmaken dat je altijd <color=#4C94D8>@stop</color> erna zet om de naniscript zich tijdelijk te pauzeren.[< skip!]
+Hier zijn een reeks <color=#4C94D8>@choice</color> waar je uit kunt kiezen! Let er wel op bij het opmaken dat je altijd <color=#4C94D8>@stop</color> daarnana zet om de naniscript zich tijdelijk te pauzeren.[< skip!]
 @choice "Ga naar keuze 1" goto:.Keuze1
 @choice "Ga naar keuze 2" goto:.Keuze2
 @choice "Ga naar keuze 3" goto:.Keuze3

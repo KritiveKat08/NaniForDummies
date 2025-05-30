@@ -1,0 +1,9 @@
+De <color=#4C94D8>@goto</color> command kan zich op twee manieren gebruikt worden. Je zou al merken dat één van de manieren om deze command te gebruiken is om naar een label binnen dezelfde script naar toe te springen. Zou je dit niet gemerkt hebben, kun je altijd de naniscript "Choice" lezen!
+Een ander manier om <color=#4C94D8>@goto</color> command te gebruiken is de mogelijkheid om ook naar een ander naniscript toe te springen. Laten we het proberen![< skip!]
+
+; Tenzij de Scenario Root verwijst naar [Assets/Scenario], zou je moeten aangeven in welke map de naniscript dat je naartoe wilt springen zich bevindt. In tegengeval ik wil naar de naniscript gaan die in de "Avanceerd" map bevindt.
+; Alle Names van naniscripts kun je vinden via Naninovel > Resources > Scripts. LET OP dat Naninovel erom vraagt naar de Name, en niet de naam van de naniscript om de @goto command te gebruiken!
+@choice "Op naar de volgende naniscript!" goto:GotoContinue
+@choice "Op naar de volgende naniscript en begin vanaf een label!" goto:GotoContinue.Hidden
+
+@stop

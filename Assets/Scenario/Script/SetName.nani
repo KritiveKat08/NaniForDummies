@@ -1,0 +1,19 @@
+In Naninovel is het mogelijk om zelf een naam in te voeren door de <color=#4C94D8>@input</color> command. Die naam wordt vervolgens in het hele verhaal gebruikt MITS je de <color=#4C94D8>@set</color> command gebruikt om de betreffende karakter van naam te veranderen.
+@set SetName="???"
+Dummy: Zou je mij graag een naam willen geven?
+
+; Vergeet niet een @stop command achter de @input command te zetten! Dit om de dialogen tijdelijk te stoppen voordat je op sumbit klikt.
+@input SetName summary:"Als je de input command gebruikt, laat het deze UI zien. Nou, geef die kerel een naam!"
+@stop
+Dummy: Wow! Wat een prachtig naam dat je mij hebt gegeven! Ik dank je zeer!
+Ja, ik vindt dat niet zo.
+
+@set SetName="Laurel"
+Dummy: Mijn naam?! Mijn prachtige naam!!
+@stop
+
+; Om een naam van een karakter te veranderen, heb je de naam tussen in { } nodig bij de Display Name van de betreffende karakter.
+
+; Bij deze nansicript heb ik de Dummy karakter een { SetName } gegeven. Om @set of @Input te gebruiken om van Display Name te veranderen, moet je hierdoor SetName te gebruiken.
+
+; In complexiteit in het ook mogelijk om de Display Name te weergeven in dialogen met gebruik van de betreffende karakter's Name in de Characters List (niet authors. Die worden automatisch naar Display Name veranderd mits je iets in de Display Name van de betreffende karakter hebt ingevoerd.) zonder dat je steeds heen en weer gaat om de Display Name te ontvangen dat jij hebt ingevoerd bij een betreffende karakter.
